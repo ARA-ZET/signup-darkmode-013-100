@@ -1,0 +1,80 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.component-overlay {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.component {
+  margin: 4rem auto;
+  width: 24rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  background-color: rgb(35, 77, 77);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  color: rgb(78, 77, 77);
+}
+
+.contact-us {
+ background-color: rgb(12, 32, 41);
+  padding-bottom: 3rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 80%;
+}
+
+.contact {
+  font-size: 4rem;
+  color: rgba(255, 253, 253, 0.4);
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.contact-form {
+  border: 2px solid rgb(184, 185, 185);
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  color: rgb(99, 96, 96);
+  
+  border-radius: 0.4rem;
+}
+
+.contact-form input {
+  width: 95%;
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin: 0.5rem auto 1.5rem;
+  background-color: rgb(24, 49, 61);
+}
+.massage {
+  height: 12rem;
+}
+
+.submit {
+  width: 95%;
+  padding: 0.4rem;
+  background-color: #e4762c;
+  border: none;
+  border-radius: 0.4rem;
+  color: white;
+  font-size: 1.4rem;
+}
